@@ -10,7 +10,7 @@ public class TraduzindoLogicaEmJava {
         int v1 = 5;
         int v2 = 5;
         int soma = v1 + v2;
-        System.out.println("A soma de "+ v1 +" com "+ v2 +" é: "+ soma +"." );
+        System.out.println("A soma de "+ v1 +" mais "+ v2 +" é "+ soma +"." );
         
 //        # Operadores Aritméticos e Classe Math
 //        ....
