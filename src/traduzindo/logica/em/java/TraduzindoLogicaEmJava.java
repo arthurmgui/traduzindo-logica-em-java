@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package traduzindo.logica.em.java;
 
-/**
- *
- * @author arthur
- */
 public class TraduzindoLogicaEmJava {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+//        # Tipos Primitivos e Manipulação de Dados
+//        ....
+//
+//        # Operadores Aritméticos e Classe Math
+//        ....
+//
+//        # Operadores Lógicos
+//        ....
+//
+//        # Operadores Relacionais
+//        ....
+//
+//        # Estruturas Condicionais
+//        ....
+//
+//        # Estruturas de Repetição
+//        ....
+
     }
     
 }
