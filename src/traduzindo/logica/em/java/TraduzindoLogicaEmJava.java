@@ -61,15 +61,15 @@ public class TraduzindoLogicaEmJava {
 //             
 //            -Operadores de igualdade.
                 Scanner scan = new Scanner (System.in);
-                System.out.println("Digite dois valores! \n"+
-                    "\n Primeiro valor: ");
+                    System.out.println("Digite dois valores! \n"+
+                        "\n Primeiro valor: ");
                 int valorA = scan.nextInt();
-                System.out.print("Segundo valor: ");
+                    System.out.print("Segundo valor: ");
                 int valorB = scan.nextInt();
                 if(valorA == valorB){
-                        System.out.println("Os valores são iguais.");
-                            }else if(valorA > valorB){
-                                System.out.println("Os valores são diferentes, "+ valorA +" é maior que "+ valorB +".");
+                    System.out.println("Os valores são iguais.");
+                }else if(valorA > valorB){
+                    System.out.println("Os valores são diferentes, "+ valorA +" é maior que "+ valorB +".");
                 }else{
                     System.out.println("Os valores são diferentes, "+ valorB + " é maior que "+ valorA +".");
                 }
