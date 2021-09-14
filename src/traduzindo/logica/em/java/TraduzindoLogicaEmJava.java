@@ -59,20 +59,39 @@ public class TraduzindoLogicaEmJava {
 //                int desafioDois = 5;
 //                System.out.println(desafioDois + desafioDois++);
 //             
-//            -Operadores de igualdade.
-                Scanner scan = new Scanner (System.in);
-                    System.out.println("Digite dois valores! \n"+
-                        "\n Primeiro valor: ");
-                int valorA = scan.nextInt();
-                    System.out.print("Segundo valor: ");
-                int valorB = scan.nextInt();
-                if(valorA == valorB){
-                    System.out.println("Os valores são iguais.");
-                }else if(valorA > valorB){
-                    System.out.println("Os valores são diferentes, "+ valorA +" é maior que "+ valorB +".");
-                }else{
-                    System.out.println("Os valores são diferentes, "+ valorB + " é maior que "+ valorA +".");
-                }
+//            -Operadores de igualdade
+//                Scanner scan = new Scanner (System.in);
+//                    System.out.println("Digite dois valores! \n"+
+//                        "\n Primeiro valor: ");
+//                int valorA = scan.nextInt();
+//                    System.out.print("Segundo valor: ");
+//                int valorB = scan.nextInt();
+//                if(valorA == valorB){
+//                    System.out.println("Os valores são iguais.");
+//                }else if(valorA > valorB){
+//                    System.out.println("Os valores são diferentes, "+ valorA +" é maior que "+ valorB +".");
+//                }else{
+//                    System.out.println("Os valores são diferentes, "+ valorB + " é maior que "+ valorA +".");
+//                }
+
+               Scanner scan = new Scanner (System.in);
+               System.out.println("Quer namorar comigo? [Sim/Não/Talvez]");
+               String querNamorarComigo = scan.nextLine();
+               switch(querNamorarComigo) {
+                    case "Sim":
+                        System.out.println("Ela me ama! :D");
+                        break;
+                    case "Talvez":
+                        System.out.println("Ela nao sabe...");
+                        break;
+                    case "Não":
+                        System.out.println("Ela nao me ama :(");
+                        break;
+                    default:
+                        System.out.println("Pode responder [Sim/Não/Talvez] para que eu possa entender?! <3");
+                        break;
+               }
+               
                 
                 
 //        #Class Math
