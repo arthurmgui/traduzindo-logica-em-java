@@ -47,8 +47,6 @@ public class TraduzindoLogicaEmJava {
             //System.out.println("Valor do tipoInt = " + tipoInt);
             //System.out.println("Valor do tipoLong = " + tipoLong);
             //System.out.println("Valor do tipoBooleano = " + tipoBooleano);
-                        
-        //Operadores Aritméticos, Operadores Lógicos, Condicionais
 
         //-Operadores Aritméticos e de incremento e decremento.
             //int desafioUm = 5;
@@ -70,7 +68,8 @@ public class TraduzindoLogicaEmJava {
             //}else{
                 //System.out.println("Os valores são diferentes, "+ valorB + " é maior que "+ valorA +".");
             //}
-        //-Usando operadores relacionais
+    	
+        //-Operadores condicionais e lógicos.
             //Scanner scan = new Scanner (System.in);
             //System.out.println("Quer namorar comigo? [Sim/Não/Talvez]");
             //String querNamorarComigo = scan.nextLine();
@@ -88,36 +87,70 @@ public class TraduzindoLogicaEmJava {
                     //System.out.println("Pode responder [Sim/Não/Talvez] para que eu possa entender?! <3");
                 //break;
                 //}
-                   
-                Scanner scan = new Scanner (System.in);
-                System.out.println("Quer namorar comigo? [Sim/Não/Talvez]");
-                String querNamorarComigo = scan.nextLine();
-                
-                
-                if(
-					( querNamorarComigo.equals("Sim") ) ||
-					( querNamorarComigo.equals("sim") )
-        		){
-                    System.out.println("Ela me ama");
-                }
-                else if(
-            		(querNamorarComigo.equals("Não") ) || 
-            		(querNamorarComigo.equals("Nao") ) || 
-            		(querNamorarComigo.equals("não") ) || 
-            		(querNamorarComigo.equals("nao") )
-        		){
-                    System.out.println("Ela nao me ama :(");
-                }
-                else
-                {
-                    System.out.println("Pode responder [Sim/Não/Talvez] para que eu possa entender?! <3");
-                }
-                       
+            
+    		//----------------------------------------------------------------
+    	
+			//Scanner scan = new Scanner (System.in);
+			//System.out.println("Quer namorar comigo? [Sim/Não/Talvez]");
+			//String querNamorarComigo = scan.nextLine();
+			
+			
+			//if(
+				//( querNamorarComigo.equals("Sim") ) ||
+				//( querNamorarComigo.equals("sim") )
+			//){
+					//System.out.println("Ela me ama");
+			//}
+			//else if(
+				//(querNamorarComigo.equals("Não") ) || 
+				//(querNamorarComigo.equals("Nao") ) || 
+				//(querNamorarComigo.equals("não") ) || 
+				//(querNamorarComigo.equals("nao") )
+			//){
+					//System.out.println("Ela nao me ama :(");
+			//}
+			//else
+			//{
+					//System.out.println("Pode responder [Sim/Não/Talvez] para que eu possa entender?! <3");
+			//}
+            
+    	//-Estruturas de Repetição
+			//Scanner scan = new Scanner (System.in);
+			//System.out.println("Quer contar até quanto?");
+			//int cont = scan.nextInt();
+			//int x = 1;
+			
+			//while(x <= cont)
+			//{
+				//System.out.print(x+", ");
+				//x++;
+			//}
+    	
+    		//----------------------------------------------------------------
+			
+			//Scanner scan = new Scanner (System.in);
+			//System.out.println("Quer contar até quanto?");
+			//int cont = scan.nextInt();
+			//int x = 1;
+			//do
+			//{
+				//System.out.print(x +", ");
+				//x++;
+			//}
+			//while (x <= cont);
+
+    		//-----------------------------------------------------------------
+    		
+	    	Scanner scan = new Scanner (System.in);
+			System.out.println("Quer contar até quanto?");
+			int cont = scan.nextInt();
+			
+			for(int x = 0; x < cont; x++ )
+			{
+				System.out.print(x +", ");
+			}
+			
+    	//-Class Math	
         }
-//        #Class Math
-//        ....
-//
-//        # Estruturas de Repetição
-//        ....
-    
+    	
 }
