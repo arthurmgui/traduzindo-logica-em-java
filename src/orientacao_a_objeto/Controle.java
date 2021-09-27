@@ -1,13 +1,53 @@
-package orientacao.a.objeto;
+package orientacao_a_objeto;
 
 public class Controle {
 	
 	public boolean carga;
-	public String marca;
-	public String modelo;
-	public boolean btnNetflix;
-	public boolean btnPrime;
+	private String marca;
+	private String modelo;
+	private boolean btnNetflix;
+	private boolean btnPrime;
 	private boolean statusLigado;
+	
+	public Controle(boolean carg, String ma, String mo, boolean netflix, boolean prime) {
+		this.carga = carg;
+		this.marca = ma;
+		this.modelo = mo;
+		this.btnNetflix = netflix;
+		this.btnPrime = prime;
+	}
+	
+	public String getModelo() {
+		return this.modelo;
+	}
+	
+	public void setModelo(String mod) {
+		this.modelo = mod;
+	}
+	
+	public String getMarca() {
+		return this.marca;
+	}
+	
+	public void setMarca(String marc) {
+		this.marca = marc;
+	}
+	
+	public void setNetflix(boolean net) {
+		this.btnNetflix = net;
+	}
+	
+	public boolean getNetflix() {
+		return this.btnNetflix;
+	}
+	
+	public void setPrime(boolean prim) {
+		this.btnPrime = prim;
+	}
+	
+	public boolean getPrime() {
+		return this.btnPrime;
+	}
 	
 	public void ligar() {
 		if( (carga == true) && (marca == "samsung") && (statusLigado == false)){
